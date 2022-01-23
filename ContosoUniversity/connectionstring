@@ -1,0 +1,3 @@
+ "SchoolContext": "Filename=/etc/ContU/SchoolContext-281d8328-7fc3-40c6-880d-2c0f8401f8a9.db"
+
+docker run -d -v /Users/andreas/Projects/ContosoUniversity/ContosoUniversity/SchoolContext-281d8328-7fc3-40c6-880d-2c0f8401f8a9.db:/etc/ContU/SchoolContext-281d8328-7fc3-40c6-880d-2c0f8401f8a9.db -p 8080:80 --name ContU cu
